@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  font-size: 18px;
+  padding: 10px;
+}
+
+div {
+  text-align: center;
+}
+.carousel img {
+  width: 100%;
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Ensures the image fills the space without distortion */
+  aspect-ratio: 16 / 9; /* Ensures a 16:9 aspect ratio */
+}
+
