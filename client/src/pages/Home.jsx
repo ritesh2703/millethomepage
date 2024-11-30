@@ -35,7 +35,7 @@ const Home = () => {
     },
     {
       id: 2,
-      title: "Healthy Millet Recipes",
+      title: "Healthy Millet Recipess",
       url: "https://example.com/recipes",
       previewImage: "/images/recipes-preview.jpg",
     },
