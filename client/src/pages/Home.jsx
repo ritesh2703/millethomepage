@@ -6,6 +6,7 @@ import YouTubeCard from "../components/YouTubeCard";
 import MilletsCarousel from "../components/MilletsCarousel";
 import Footer from "../components/Footer";
 import ApplicationPortal from "../components/ApplicationPortal";
+import SocialMediaJoin from "../components/SocialMediaJoin";
 
 const recipes = [
   {
@@ -142,6 +143,7 @@ const Home = () => {
       </div>
     </div>
     </div>]
+      <SocialMediaJoin />
      <ApplicationPortal/>
     <Footer />  
     </div>

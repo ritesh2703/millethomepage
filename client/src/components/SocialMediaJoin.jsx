@@ -11,7 +11,7 @@ const SocialMediaJoin = () => {
       <div className="d-flex justify-content-center gap-4 mt-3">
         {/* Instagram */}
         <a
-          href="https://instagram.com/your_instagram_channel"
+          href="https://www.instagram.com/milletinfo?utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-outline-danger"
@@ -21,7 +21,7 @@ const SocialMediaJoin = () => {
 
         {/* WhatsApp */}
         <a
-          href="https://wa.me/your_whatsapp_number"
+          href="https://whatsapp.com/channel/0029Vatk8PhKLaHhYcGFyU3I"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-outline-success"
@@ -31,7 +31,7 @@ const SocialMediaJoin = () => {
 
         {/* Telegram */}
         <a
-          href="https://t.me/your_telegram_channel"
+          href="https://t.me/milletinfo"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-outline-primary"
