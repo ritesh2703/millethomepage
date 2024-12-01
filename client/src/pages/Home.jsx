@@ -98,7 +98,7 @@ const Home = () => {
         </div>
 
         {/* Recipe Cards Section */}
-        <h3 className="mb-4 text-center text-primary">Popular Recipes</h3>
+        <h3 className="mb-4 text-center text-primary">Recipes Of Day</h3>
         <div
           className="d-flex flex-wrap justify-content-center"
           style={{ marginTop: "20px" }}
@@ -143,8 +143,8 @@ const Home = () => {
       </div>
     </div>
     </div>]
+    <ApplicationPortal/>
       <SocialMediaJoin />
-     <ApplicationPortal/>
     <Footer />  
     </div>
     
