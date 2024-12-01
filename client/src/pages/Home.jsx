@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 import Carousel from "../components/Carousel";
 import RecipeCard from "../components/RecipeCard";
 import WebsiteCard from "../components/WebsiteCard";
@@ -73,6 +74,8 @@ const Home = () => {
   };
 
   return (
+    <>
+    <Navbar />
     <div>
       <div style={{ textAlign: "center", marginTop: "20px" }}>
         <h1>Welcome to Millet Portal</h1>
@@ -113,42 +116,46 @@ const Home = () => {
           ))}
         </div>
       </div>
+
       <div>
-      <h2 className="text-center my-4">Types of Millets</h2>
-      <MilletsCarousel />
-    </div>
+        <h2 className="text-center my-4">Types of Millets</h2>
+        <MilletsCarousel />
+      </div>
+
       <div className="container">
-      <h2 className="mb-4 text-center text-primary">Goverment Website for miliets</h2>
-      <div className="d-flex flex-wrap justify-content-center">
-        {websites.map((website) => (
-          <WebsiteCard
-            key={website.id}
-            title={website.title}
-            url={website.url}
-            previewImage={website.previewImage}
-          />
-        ))}
+        <h2 className="mb-4 text-center text-primary">Government Website for Millets</h2>
+        <div className="d-flex flex-wrap justify-content-center">
+          {websites.map((website) => (
+            <WebsiteCard
+              key={website.id}
+              title={website.title}
+              url={website.url}
+              previewImage={website.previewImage}
+            />
+          ))}
+        </div>
       </div>
-        <div className="container">
-      <h2 className="text-center my-4">Millet Video Gallery</h2>
-      <div className="d-flex flex-wrap justify-content-center">
-        {videos.map((video) => (
-          <YouTubeCard
-            key={video.id}
-            title={video.title}
-            description={video.description}
-            videoId={video.videoId}
-          />
-        ))}
+
+      <div className="container">
+        <h2 className="text-center my-4">Millet Video Gallery</h2>
+        <div className="d-flex flex-wrap justify-content-center">
+          {videos.map((video) => (
+            <YouTubeCard
+              key={video.id}
+              title={video.title}
+              description={video.description}
+              videoId={video.videoId}
+            />
+          ))}
+        </div>
       </div>
-    </div>
-    </div>]
-    <ApplicationPortal/>
+
+      <ApplicationPortal />
       <SocialMediaJoin />
-    <Footer />  
+      <Footer />
     </div>
-    
-  );
+  </>
+);
 };
 
 export default Home;

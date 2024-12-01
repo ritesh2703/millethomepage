@@ -6,26 +6,26 @@ const CarouselBootstrap = () => {
       id="carouselExampleControls"
       className="carousel slide"
       data-bs-ride="carousel"
-      style={{ width: "80%", margin: "auto", marginTop: "20px" }}
+      style={{ width: "70%", margin: "auto", marginTop: "20px" }}
     >
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="/images/image1.jpg" // Path to your first image
+            src="/images/govcom.png" 
             className="d-block w-100"
             alt="Slide 1"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="/images/image2.jpg" // Path to your second image
+            src="/images/diet.jpg" // Path to your second image
             className="d-block w-100"
             alt="Slide 2"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="/images/image3.jpg" // Path to your third image
+            src="/images/image3.jpeg" // Path to your third image
             className="d-block w-100"
             alt="Slide 3"
           />
